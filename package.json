@@ -3,6 +3,7 @@
 	"author": {
 		"name": "dsumac"
 	},
+	"description": "A boilerplate to start a simple reverse proxy with grunt",
 	"engines": {
 		"node": ">= 0.10.0"
 	},
