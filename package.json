@@ -4,6 +4,10 @@
 		"name": "dsumac"
 	},
 	"description": "A boilerplate to start a simple reverse proxy with grunt",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dsumac/grunt-proxy-boilerplate"
+	},
 	"engines": {
 		"node": ">= 0.10.0"
 	},
