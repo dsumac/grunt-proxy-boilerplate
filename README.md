@@ -18,7 +18,7 @@ npm install
 
 ## Adapting the "connect" task
 
-* For connect settings, see [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy)
+* For connect settings, see [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect)
 * For proxies settings, see [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy)
 
 ## Start proxy
