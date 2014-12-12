@@ -10,6 +10,7 @@ module.exports = function (grunt) {
 				options: {
 					hostname: 'localhost',
 					port: 7777,
+					keepalive: true,
 					middleware: function (connect) {
 						var proxy = require('grunt-connect-proxy/lib/utils').proxyRequest
 						return [
@@ -25,20 +26,10 @@ module.exports = function (grunt) {
 					}
 				]
 			}
-		},
-		watch: {
-			js: {
-				files: [
-					'./*.js'
-				],
-				options: {
-					interrupt: true
-				}
-			}
 		}
 	});
 
 	grunt.task.registerTask('proxy', 'Start reverse proxy', function () {
-		grunt.task.run(['configureProxies:server', 'connect:server', 'watch']);
+		grunt.task.run(['configureProxies:server', 'connect:server']);
 	});
 }

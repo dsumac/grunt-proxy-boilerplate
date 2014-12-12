@@ -14,8 +14,7 @@
 	"dependencies": {
 		"load-grunt-tasks": "1.0.0",
 		"grunt-contrib-connect": "0.9.0",
-		"grunt-connect-proxy": "~0.1.11",
-		"grunt-contrib-watch": "~0.6.1"
+		"grunt-connect-proxy": "~0.1.11"
 	},
 	"peerDependencies": {
 		"grunt": "~0.4.1"
