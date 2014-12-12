@@ -16,13 +16,13 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 npm install
 ```
 
-## Adapting the "connect" task
-
-* For connect settings, see [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect)
-* For proxies settings, see [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy)
-
 ## Start proxy
 
 ```shell
 grunt proxy
 ```
+
+## Adapting the "connect" task
+
+* For connect settings, see [grunt-contrib-connect](https://github.com/gruntjs/grunt-contrib-connect)
+* For proxies settings, see [grunt-connect-proxy](https://github.com/drewzboto/grunt-connect-proxy)
