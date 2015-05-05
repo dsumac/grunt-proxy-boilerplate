@@ -12,17 +12,16 @@ module.exports = function (grunt) {
 					port: 7777,
 					keepalive: true,
 					middleware: function (connect) {
-						var proxy = require('grunt-connect-proxy/lib/utils').proxyRequest
+						var proxy = require('grunt-connect-proxy/lib/utils').proxyRequest;
 						return [
-							proxy,
-							connect.static("app")// Serve static files.
+							proxy
 						];
 					}
 				},
 				proxies: [
 					{
-						context: '/context',// change context
-						host: 'www.domain.fr' // specify domain or ip
+						context: '/turfInfo',// change context
+						host: 'www.pmu.fr' // specify domain or ip
 					}
 				]
 			}
