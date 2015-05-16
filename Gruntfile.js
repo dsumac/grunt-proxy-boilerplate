@@ -20,8 +20,8 @@ module.exports = function (grunt) {
 				},
 				proxies: [
 					{
-						context: '/turfInfo',// change context
-						host: 'www.pmu.fr' // specify domain or ip
+						context: '/context',// change context
+						host: 'www.domain.com' // specify domain or ip
 					}
 				]
 			}
